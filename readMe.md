@@ -10,11 +10,11 @@
 
 ``component中public文件中是页面公用的部分  footer  和  header``
 
-``header  footer``
+``header  footer  点击图片中的back会返回到我们的首页中``
 
 <img src='./image/header.png' style="display:'block',width:'100%'"/>
 
 
-``点击BACK返回会默认跳转到我们的首页``
+``首页``
 
 <img src="./image/first.png" style="display:'block',width:'100%'"/> 
