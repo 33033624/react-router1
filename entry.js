@@ -8,6 +8,13 @@ import { createHistory, useBasename } from 'history'
 
 
 import App from './app.js'
+import Baking from './component/router/baking.js'
+import My from './component/router/my.js'
+import Store from './component/router/store.js'
+import Study from './component/router/study.js'
+import First from './component/router/first.js'
+
+
 /*import Mall from './component/routers/mall/mall.js'
 import Circle from './component/routers/circle/circle.js'
 import CircleType from './component/routers/circle/circleType.js'
@@ -29,15 +36,18 @@ const history = useBasename(createHistory)({
 render((
     <Router>
     <Route path="/" component={App}>
-        {/*<IndexRoute component={Index} />
+        <IndexRoute component={First} />
 
-    <Route path="/type/:typeName" component={Type} />
+        <Route path="/烘焙" component={Baking} />
 
-    <Route path="/mall" component={Mall}>
-    <Route path="type/:typeName" component={Type} />
-    </Route>
 
-    <Route path="/my" component={My}>
+
+        <Route path="/教程" component={Study}/>
+        <Route path="/我的" component={My}/>
+        <Route path="/商城" component={Store}/>
+        <Route path="/首页" component={First}/>
+
+        {/*
     <IndexRoute component={MyNav} />
     <Route path="userCenter" component={MyUserCenter} />
     <Route path="memberClub" component={MemberClub} />

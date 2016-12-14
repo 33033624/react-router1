@@ -1,0 +1,29 @@
+/**
+ * Created by super on 16/12/14.
+ */
+/**
+ * Created by super on 16/12/14.
+ */
+import React,{Component} from 'react';
+import {Router,Route,IndexRoute,Link,IndexLink} from 'react-router';
+import Header from './public/header.js';
+class My extends Component{
+    constructor(props){
+        super(props)
+    }
+    render(){
+
+        return (
+            <div>
+                <Header mytitle='我的'></Header>
+                <div className='baking'>
+                    <p className='myDetail'>我是我的页</p>
+                </div>
+
+            </div>
+        )
+    }
+
+}
+
+export default My

@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+
+.fixed{
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    text-align: center;
+    margin:0 auto;
+    background-color:lightseagreen;
+
+
+
+}
+.fixed ul{
+    width: 96%;
+    margin: 0 auto;
+}
+.fixed li{
+    display: inline-block;
+    width: 20%;
+    height: 60px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    color:white
+}
+.fixed li .back{
+    display: block;
+    height: 40px;
+    overflow: hidden;
+}
+.fixed li .back1{
+    background: url("./image/bg_03.png") no-repeat center ;
+}
+.fixed li .back2{
+    background: url("./image/cd_03.png") no-repeat center ;
+
+}
+.fixed li .back3{
+    background: url("./image/dg_03.png") no-repeat center ;
+
+}
+.fixed li .back4{
+    background: url("./image/mb_03.png") no-repeat center ;
+
+}
+.fixed li{
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    margin-top: -8px ;
+    color:white
+}
+.goback{
+   position: fixed;
+    left: 0;
+    top: 0;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    color:lightcoral;
+}
+.title{
+    text-align: center;
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #00ffff;
+}
+.baking{
+    margin-top: 20px;
+}
+.studyDetail,.storeDetail,.myDetail,.bakingDetail{
+    height: 1000px;
+    font-size: 40px;
+    line-height: 400px;
+    text-align: center;
+
+}
+.studyDetail{
+    background-color: red;
+}
+.storeDetail{
+
+    background-color: blue;
+
+}
+.myDetail{
+
+    background-color: green;
+
+}
+.bakingDetail{
+
+    background-color: yellow;
+
+}
