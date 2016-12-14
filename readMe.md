@@ -8,8 +8,8 @@
 
 ``component中public文件中是页面公用的部分  footer  和  header``
 ``header  footer``
-<img src='./image/header.png'/>
+<img src='./image/header.png' style="width:'100%'"/>
 
 
 ``点击BACK返回会默认跳转到我们的首页``
-<img src="./image/first.png"/> 
+<img src="./image/first.png" style="width:'100%'"/> 
