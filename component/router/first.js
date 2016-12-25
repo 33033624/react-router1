@@ -21,6 +21,7 @@ class First extends Component{
                 <div className='baking'>
                     <img src="../image/user_center_bg.png" alt=""/>
                 </div>
+                <h1>我是首页</h1>
 
             </div>
         )

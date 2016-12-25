@@ -13,6 +13,8 @@ import My from './component/router/my.js'
 import Store from './component/router/store.js'
 import Study from './component/router/study.js'
 import First from './component/router/first.js'
+import Login from './component/router/login.js'
+import Registered from './component/router/registered.js'
 
 
 /*import Mall from './component/routers/mall/mall.js'
@@ -35,17 +37,26 @@ const history = useBasename(createHistory)({
 {/** 思考：首页也有其他分路由，怎么配**/ }
 render((
     <Router>
-    <Route path="/" component={App}>
-        <IndexRoute component={First} />
 
-        <Route path="/烘焙" component={Baking} />
+       <Route path='/' component={Login}  />
+
+            <Route path="/login" component={Login}/>
+
+            <Route path="/registered" component={Registered}/>
+
+
+        <Route path="/app" component={App}>
+            <Route path="/app/首页" component={First}/>
+
+            <Route path="/app/烘焙" component={Baking} />
+            <Route path="/app/教程" component={Study}/>
+            <Route path="/app/我的" component={My}/>
+            <Route path="/app/商城" component={Store}/>
 
 
 
-        <Route path="/教程" component={Study}/>
-        <Route path="/我的" component={My}/>
-        <Route path="/商城" component={Store}/>
-        <Route path="/首页" component={First}/>
+
+
 
         {/*
     <IndexRoute component={MyNav} />
@@ -59,7 +70,7 @@ render((
     <Route path="say" component={CircleSay} />
     </Route>*/}
 
-    </Route>
+         </Route>
     </Router>
 ), document.getElementById('app'))
 

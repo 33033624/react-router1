@@ -18,28 +18,28 @@ class Footer extends Component{
                 <div className='fixed'>
                     <ul >
                         <li>
-                            <Link to='/教程' activeStyle={{color:'black'}}>
+                            <Link to='/app/教程' activeStyle={{color:'black'}}>
                                 <i className='back back1'></i>
                                 <p>教程</p>
                             </Link>
 
                         </li>
                         <li>
-                            <Link to='/烘焙' activeStyle={{color:'black'}}>
+                            <Link to='/app/烘焙' activeStyle={{color:'black'}}>
                                 <i className='back back2'></i>
                                 <p>烘焙圈</p>
                             </Link>
 
                         </li>
                         <li>
-                            <Link to='/商城' activeStyle={{color:'black'}}>
+                            <Link to='/app/商城' activeStyle={{color:'black'}}>
                                 <i className='back back3'></i>
                                 <p>商城</p>
                             </Link>
 
                         </li>
                         <li>
-                            <Link to='/我的' activeStyle={{color:'black'}}>
+                            <Link to='/app/我的' activeStyle={{color:'black'}}>
                                 <i className='back back4'></i>
                                 <p>我的</p>
                             </Link>

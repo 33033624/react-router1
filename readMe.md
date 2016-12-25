@@ -10,11 +10,21 @@
 
 ``component中public文件中是页面公用的部分  footer  和  header``
 
-``header  footer  点击图片中的back会返回到我们的首页中``
+``实现正确的逻辑包括注册登陆  但是注册登陆都没有进行校验处理  本次修改并且做了点击注册或者登陆然后路由也会进行跳转  其中的图片如下所示``
 
-<img src='./image/header.png' style="display:'block',width:'100%'"/>
+``登陆页面``
+<img src='./image/login.png'>
 
+``注册页面``
+<img src='./image/reg.png'>
 
 ``首页``
+<img src='./image/first.png'>
 
-<img src="./image/first.png" style="display:'block',width:'100%'"/> 
+``以及其他的二级页``
+``点击上面的返回首页就会默认返回到第一页``
+<img src='./header.png'>
+
+
+
+

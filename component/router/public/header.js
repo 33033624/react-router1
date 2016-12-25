@@ -23,17 +23,7 @@ class Header extends Component{
 
             </div>
         )
-
-
-
-
-
     }
-
-
-
-
-
 }
 
 
@@ -43,11 +33,10 @@ class Goback extends  Component{
         super(props)
     }
     render(){
-
         return (
             <div className='goback'>
-                <Link to={`/首页`}>
-                      <p style={{color:"red"}}>BACK</p>
+                <Link to={`/app/首页`}>
+                      <p style={{color:"red"}}>返回首页</p>
                 </Link>
             </div>
         )
