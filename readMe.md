@@ -22,7 +22,7 @@
 <img src='./image/first.png'>
 
 ``以及其他的二级页，点击上面的返回首页就会默认返回到第一页``
-<img src='./header.png'>
+<img src='./image/header.png'>
 
 
 
