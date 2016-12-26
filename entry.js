@@ -15,6 +15,7 @@ import Study from './component/router/study.js'
 import First from './component/router/first.js'
 import Login from './component/router/login.js'
 import Registered from './component/router/registered.js'
+import FindPsw from './component/router/findPsw.js'
 
 
 /*import Mall from './component/routers/mall/mall.js'
@@ -43,6 +44,7 @@ render((
             <Route path="/login" component={Login}/>
 
             <Route path="/registered" component={Registered}/>
+            <Route path="/find_password" component={FindPsw}/>
 
 
         <Route path="/app" component={App}>

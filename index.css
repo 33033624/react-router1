@@ -11,7 +11,12 @@ a{
     color:white;
     text-decoration: none;
 }
+#app{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
 
+}
 .fixed{
     position: fixed;
     bottom:0;
@@ -19,6 +24,7 @@ a{
     text-align: center;
     margin:0 auto;
     background-color:lightseagreen;
+    z-index: 100;
 
 
 
@@ -66,13 +72,20 @@ a{
    position: fixed;
     left: 0;
     top: 0;
-    height: 20px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    color:black;
     width: 100px;
     text-align: center;
-    color:lightcoral;
+
 }
 .title{
     text-align: center;
+    height:40px;
+    color:white;
+    line-height: 40px;
+    font-size: 26px;
 }
 .header{
     position: fixed;
@@ -81,7 +94,7 @@ a{
     background-color: #00ffff;
 }
 .baking{
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .studyDetail,.storeDetail,.myDetail,.bakingDetail{
     height: 1000px;
@@ -106,5 +119,156 @@ a{
 .bakingDetail{
 
     background-color: yellow;
+
+}
+.head{
+    position: fixed;
+    top: 0;
+    height: 40px;
+    background: lightseagreen;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    width: 100%;
+    z-index: 999;
+}
+.btn{
+    display: block;
+    margin:20px auto 0;
+    height:40px;
+    width: 200px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    color:white;
+    background: lightgreen;
+    border: none;
+    border-radius: 5px;
+}
+.logo{
+    width:120px;
+    height:120px;
+    display: block;
+    margin: 0 auto;
+    background: url("./image/logo.jpg") no-repeat center;
+    background-position: -259px -89px;
+    border-radius: 30px;
+}
+
+.seach_first{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: red;
+    z-index: 100;
+
+}
+.seach_first input{
+    width: 90%;
+    height: 80%;
+    margin: -1% 5%;
+    font-size: 16px;
+
+}
+
+.swiper-container {
+    margin-top: 40px;
+    width: 100%;
+    height: 150px;
+}
+
+.text_box{
+    display: inline-block;
+}
+
+.recommend,.like{
+    height:78px;
+    width: 100%;
+    border-bottom: 2px solid lightgray;
+
+}
+.recommend ul li,.like ul li{
+    height:78px;
+    display: inline-block;
+    width: 50%;
+    border-right: 1px solid black;
+}
+.recommend ul li:nth-child(1),.like ul li:nth-child(1){
+    margin-left: -1%;
+}
+.recommend ul li:nth-child(2),.like ul li:nth-child(2){
+    border: none;
+}
+
+.recommend ul li p{
+    margin-left: 20px;
+}
+.recommend_text{
+    margin-top: 10px;
+    color:#181818;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.recommend_tex2{
+    color:#686868;
+    font-size: 11px;
+}
+.recomended_img{
+    float: right;
+}
+.recomended_img img{
+    width: 67px;
+    height: 76px;
+    margin-right: 10px;
+}
+
+.like ul li{
+    height: 224px;
+    border-right: 2px solid lightgray;
+}
+.like ul li .like_img{
+    height:158px
+}
+.like_img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.like_text{
+    color:#232326;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 13px;
+    height:33px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient:vertical;
+    word-break:break-word;
+    margin-bottom: 3px;
+    line-height: 17px;
+}
+.like_tex2{
+    color:red;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.like_tex2 .same{
+    font-size: 12px;
+    float: right;
+    margin-right: 10px;
+    color:#686868;
+    border-radius: 4px;
+    height: 20px;
+    width: 55px;
+    border:1px solid #bfbfbf;
+    line-height: 20px;
+    text-align: center;
+
 
 }
