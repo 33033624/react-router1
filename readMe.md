@@ -1,4 +1,4 @@
-#react-router-demo  后期会不断优化 
+#react-router-demo  后期会不断优化
 
 ``1 npm install``
 
@@ -23,7 +23,7 @@
 
 
 ``首页``
-<div><img style='display:inline-block;float:left' src='./image/first.png'></div>
+<div><img style='display:inline-block;float:left' src='./image/first.jpg'></div>
 
 
 ``找回密码页``
@@ -31,7 +31,7 @@
 <img style='display:inline-block;float:left'src='./image/findpsw.png'>
 </div>
 
-``以及其他的二级页，点击上面的返回首页就会默认返回到第一页``
+``以及其他的二级页，点击上面的返回首页就会默认返回到首页``
 <div><img src='./image/header.png'>
 </div>
 
