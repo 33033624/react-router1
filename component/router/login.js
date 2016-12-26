@@ -4,6 +4,8 @@
 import React,{Component} from 'react';
 import {Router,Route,IndexRoute,Link,IndexLink} from 'react-router';
 
+import src from '../../image/logo.jpg'
+
 class Login extends Component {
 
     constructor(props)
@@ -22,16 +24,28 @@ class Login extends Component {
         return (
                 <div style={styles.top}>
                     <div>
-                        <label for="name">账号:</label><input style={styles.inp} id='name' type="text"/>
+
+                       <h1 style={{textIndent: '-9000em'}}>
+                       美策
+                           <span className='logo'></span>
+
+                       </h1>
+                        <div style={{paddingTop:"10%",width:300,margin:"0 auto"}}>
+                            <label for="name">账号:</label><input style={styles.inp} id='name' type="text"/>
+
+                        </div>
+
+                        <div style={{width:300,margin:"0 auto"}}>
+                            <label for="password">密码:</label><input style={styles.inp}  id='password' type="password"/>
+                            <div><a href='#/find_password' style={{color:'blue',fontSize:'12px',marginLeft:'35px'}}>忘记密码</a></div>
+                        </div>
+
 
                     </div>
 
-                   <div>
-                       <label for="password">密码:</label><input style={styles.inp}  id='password' type="password"/>
-                   </div>
 
-                    <button onClick={this.login.bind(this)} style={{width:"200px",height:'40px',marginLeft:"50px",marginTop:'10px'}}>登陆</button>
-                    <Link to='registered'><button  style={{width:"200px",height:'40px',marginLeft:"50px",marginTop:'10px'}}>注册</button></Link>
+                    <button onClick={this.login.bind(this)} className='btn' style={{marginTop:40}}>登陆</button>
+                    <Link to='registered'><button className='btn'   >注册</button></Link>
                 </div>
         )
 
@@ -48,9 +62,9 @@ var styles = {
         border:'1px solid black',
     },
     top:{
-        position:'fixed',
-        top:'20%',
-
+        width:'100%',
+        height:'100%',
+        background:'lightskyblue'
     }
 
 
