@@ -16,15 +16,30 @@ export class SearchList extends Component{
 
     render(){
         const {searchList} = this.props;
-        console.log(searchList);
+        console.dir(searchList);
         return (
-            <ul style={{position:"fixed",height:200,width:200,zIndex:1000,background:'green'}}>
+            <ul style={{position:"fixed",width:'100%',zIndex:1000,background:'white'}}>
                 {
                     searchList.map(function(item){
-                        return <li>{item}</li>
+                        return <li style={styles.lists}>{item}</li>
                     })
                 }
             </ul>
         )
     }
+}
+
+const styles = {
+    lists:{
+        height:'40px',
+        lineHeight:'40px',
+        textIndent:'2em',
+        borderBottom:'1px solid black',
+        background:'lightgray',
+        margin:'0 5%',
+        listStyle:'none'
+    }
+
+
+
 }

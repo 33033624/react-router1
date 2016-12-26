@@ -56,7 +56,7 @@ class First extends Component{
         }
     }
     render(){
-        const sea = this.state;
+        const {sea} = this.state;
         console.log(sea.length)
 
         return (
@@ -68,7 +68,7 @@ class First extends Component{
                 </div>
 
                     {
-                        sea !==''?<SearchList searchList={sea}></SearchList>:''
+                        sea.length !==0 ?<SearchList searchList={sea} />:''
                     }
 
                 <div className="swiper-container">

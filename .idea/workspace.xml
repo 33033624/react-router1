@@ -20,14 +20,14 @@
     <favorites_list name="my-react-router" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.51557094">
       <split-first>
         <leaf>
           <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-25.62963">
-                  <caret line="267" column="22" selection-start-line="267" selection-start-column="22" selection-end-line="267" selection-end-column="22" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="268" column="0" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -38,7 +38,13 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
                   <caret line="47" column="66" selection-start-line="47" selection-start-column="66" selection-end-line="47" selection-end-column="66" />
-                  <folding />
+                  <folding>
+                    <marker date="1482732829000" expanded="true" signature="447:1496" placeholder="&lt;xml/&gt;" />
+                    <marker date="1482732829000" expanded="true" signature="492:1272" placeholder="&lt;xml/&gt;" />
+                    <marker date="1482732829000" expanded="true" signature="522:672" placeholder="&lt;xml/&gt;" />
+                    <marker date="1482732829000" expanded="true" signature="697:894" placeholder="&lt;xml/&gt;" />
+                    <marker date="1482732829000" expanded="true" signature="920:1243" placeholder="&lt;xml/&gt;" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -65,7 +71,15 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
                   <caret line="6" column="21" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="21" />
-                  <folding />
+                  <folding>
+                    <marker date="1482733613000" expanded="true" signature="528:1639" placeholder="&lt;xml/&gt;" />
+                    <marker date="1482733613000" expanded="true" signature="552:761" placeholder="&lt;xml/&gt;" />
+                    <marker date="1482733613000" expanded="true" signature="778:863" placeholder="&lt;xml/&gt;" />
+                    <marker date="1482733613000" expanded="true" signature="880:1029" placeholder="&lt;xml/&gt;" />
+                    <marker date="1482733613000" expanded="true" signature="1047:1195" placeholder="&lt;xml/&gt;" />
+                    <marker date="1482733613000" expanded="true" signature="1213:1361" placeholder="&lt;xml/&gt;" />
+                    <marker date="1482733613000" expanded="true" signature="1379:1528" placeholder="&lt;xml/&gt;" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -75,7 +89,18 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
                   <caret line="17" column="37" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="37" />
-                  <folding />
+                  <folding>
+                    <marker date="1482720459000" expanded="true" signature="326:1543" placeholder="&lt;xml/&gt;" />
+                    <marker date="1482720459000" expanded="true" signature="370:1519" placeholder="&lt;xml/&gt;" />
+                    <marker date="1482720459000" expanded="true" signature="400:654" placeholder="&lt;xml/&gt;" />
+                    <marker date="1482720459000" expanded="true" signature="433:623" placeholder="&lt;xml/&gt;" />
+                    <marker date="1482720459000" expanded="true" signature="679:934" placeholder="&lt;xml/&gt;" />
+                    <marker date="1482720459000" expanded="true" signature="712:903" placeholder="&lt;xml/&gt;" />
+                    <marker date="1482720459000" expanded="true" signature="959:1213" placeholder="&lt;xml/&gt;" />
+                    <marker date="1482720459000" expanded="true" signature="992:1182" placeholder="&lt;xml/&gt;" />
+                    <marker date="1482720459000" expanded="true" signature="1238:1492" placeholder="&lt;xml/&gt;" />
+                    <marker date="1482720459000" expanded="true" signature="1271:1461" placeholder="&lt;xml/&gt;" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -100,21 +125,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="first.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="first.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/component/router/first.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.77792734">
-                  <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="70" column="40" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="seachList.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="seachList.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/component/router/public/seachList.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="22" column="30" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="30" />
+                <state vertical-scroll-proportion="0.41948053">
+                  <caret line="20" column="83" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
                   <folding />
                 </state>
               </provider>
@@ -127,7 +152,7 @@
           <file leaf-file-name="like.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/component/router/public/like.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7285714">
+                <state vertical-scroll-proportion="0.6545454">
                   <caret line="49" column="55" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
                   <folding />
                 </state>
@@ -175,9 +200,9 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/component/router/public/recommended.js" />
         <option value="$PROJECT_DIR$/component/router/public/like.js" />
+        <option value="$PROJECT_DIR$/component/router/first.js" />
         <option value="$PROJECT_DIR$/index.css" />
         <option value="$PROJECT_DIR$/component/router/public/seachList.js" />
-        <option value="$PROJECT_DIR$/component/router/first.js" />
       </list>
     </option>
   </component>
@@ -189,7 +214,7 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="218" />
+    <option name="x" value="159" />
     <option name="y" value="95" />
     <option name="width" value="1761" />
     <option name="height" value="890" />
@@ -217,6 +242,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -305,8 +332,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -385,15 +410,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="218" y="95" width="1761" height="890" extended-state="0" />
+    <frame x="159" y="95" width="1761" height="890" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19425288" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16954023" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -402,9 +426,10 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -427,7 +452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -435,7 +459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -467,7 +490,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1482720459000" expanded="true" signature="326:1543" placeholder="&lt;xml/&gt;" />
+            <marker date="1482720459000" expanded="true" signature="370:1519" placeholder="&lt;xml/&gt;" />
+            <marker date="1482720459000" expanded="true" signature="400:654" placeholder="&lt;xml/&gt;" />
+            <marker date="1482720459000" expanded="true" signature="433:623" placeholder="&lt;xml/&gt;" />
+            <marker date="1482720459000" expanded="true" signature="679:934" placeholder="&lt;xml/&gt;" />
+            <marker date="1482720459000" expanded="true" signature="712:903" placeholder="&lt;xml/&gt;" />
+            <marker date="1482720459000" expanded="true" signature="959:1213" placeholder="&lt;xml/&gt;" />
+            <marker date="1482720459000" expanded="true" signature="992:1182" placeholder="&lt;xml/&gt;" />
+            <marker date="1482720459000" expanded="true" signature="1238:1492" placeholder="&lt;xml/&gt;" />
+            <marker date="1482720459000" expanded="true" signature="1271:1461" placeholder="&lt;xml/&gt;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -575,7 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -583,7 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="45" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -593,33 +625,30 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readMe.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.40419582">
-            <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
       </provider>
       <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state>
           <first_editor vertical-scroll-proportion="0.62134254">
             <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.40419582">
+            <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component/router/store.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="52" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -627,9 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="e#41#81#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -671,7 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -687,7 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.461538">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,7 +737,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="21" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="21" />
-          <folding />
+          <folding>
+            <marker date="1482733613000" expanded="true" signature="528:1639" placeholder="&lt;xml/&gt;" />
+            <marker date="1482733613000" expanded="true" signature="552:761" placeholder="&lt;xml/&gt;" />
+            <marker date="1482733613000" expanded="true" signature="778:863" placeholder="&lt;xml/&gt;" />
+            <marker date="1482733613000" expanded="true" signature="880:1029" placeholder="&lt;xml/&gt;" />
+            <marker date="1482733613000" expanded="true" signature="1047:1195" placeholder="&lt;xml/&gt;" />
+            <marker date="1482733613000" expanded="true" signature="1213:1361" placeholder="&lt;xml/&gt;" />
+            <marker date="1482733613000" expanded="true" signature="1379:1528" placeholder="&lt;xml/&gt;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -721,7 +753,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="37" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="37" />
-          <folding />
+          <folding>
+            <marker date="1482720459000" expanded="true" signature="326:1543" placeholder="&lt;xml/&gt;" />
+            <marker date="1482720459000" expanded="true" signature="370:1519" placeholder="&lt;xml/&gt;" />
+            <marker date="1482720459000" expanded="true" signature="400:654" placeholder="&lt;xml/&gt;" />
+            <marker date="1482720459000" expanded="true" signature="433:623" placeholder="&lt;xml/&gt;" />
+            <marker date="1482720459000" expanded="true" signature="679:934" placeholder="&lt;xml/&gt;" />
+            <marker date="1482720459000" expanded="true" signature="712:903" placeholder="&lt;xml/&gt;" />
+            <marker date="1482720459000" expanded="true" signature="959:1213" placeholder="&lt;xml/&gt;" />
+            <marker date="1482720459000" expanded="true" signature="992:1182" placeholder="&lt;xml/&gt;" />
+            <marker date="1482720459000" expanded="true" signature="1238:1492" placeholder="&lt;xml/&gt;" />
+            <marker date="1482720459000" expanded="true" signature="1271:1461" placeholder="&lt;xml/&gt;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -730,17 +773,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.62963">
-          <caret line="267" column="22" selection-start-line="267" selection-start-column="22" selection-end-line="267" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/component/router/public/like.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7285714">
+        <state vertical-scroll-proportion="0.6545454">
           <caret line="49" column="55" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
           <folding />
         </state>
@@ -766,22 +801,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="47" column="66" selection-start-line="47" selection-start-column="66" selection-end-line="47" selection-end-column="66" />
+          <folding>
+            <marker date="1482732829000" expanded="true" signature="447:1496" placeholder="&lt;xml/&gt;" />
+            <marker date="1482732829000" expanded="true" signature="492:1272" placeholder="&lt;xml/&gt;" />
+            <marker date="1482732829000" expanded="true" signature="522:672" placeholder="&lt;xml/&gt;" />
+            <marker date="1482732829000" expanded="true" signature="697:894" placeholder="&lt;xml/&gt;" />
+            <marker date="1482732829000" expanded="true" signature="920:1243" placeholder="&lt;xml/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component/router/first.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="70" column="40" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="268" column="0" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component/router/public/seachList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component/router/first.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77792734">
-          <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.41948053">
+          <caret line="20" column="83" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
           <folding />
         </state>
       </provider>
