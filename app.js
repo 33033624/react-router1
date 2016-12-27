@@ -9,9 +9,9 @@ import Footer from './component/router/public/footer.js'
 
 require('./index.css');
 
-const ACTIVE = { color: 'red' }
+const ACTIVE = { color: 'red' };
 const App=React.createClass({
-    render() {
+    render(){
         return (
 
             <div >

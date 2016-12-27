@@ -11,6 +11,9 @@ a{
     color:white;
     text-decoration: none;
 }
+ul,li,dl,ol{
+    list-style: none;
+}
 #app{
     width: 100%;
     height: 100%;
@@ -92,9 +95,11 @@ a{
     top: 0;
     width: 100%;
     background-color: #00ffff;
+    z-index: 999;
 }
 .baking{
     margin-top: 40px;
+    margin-bottom: 70px;
 }
 .studyDetail,.storeDetail,.myDetail,.bakingDetail{
     height: 1000px;
@@ -180,16 +185,24 @@ a{
     width: 100%;
     height: 150px;
 }
-
+.swiper-container2{
+    height: 120px;
+}
 .text_box{
     display: inline-block;
 }
 
 .recommend,.like{
-    height:78px;
+
     width: 100%;
     border-bottom: 2px solid lightgray;
 
+}
+.like{
+    border-bottom: 14px solid lightgray;
+}
+.recommend{
+    height:78px;
 }
 .recommend ul li,.like ul li{
     height:78px;
@@ -270,5 +283,91 @@ a{
     line-height: 20px;
     text-align: center;
 
+
+}
+
+.tab_box{
+    width: 100%;
+}
+.tab_box .tab_list_box{
+    width: 100%;
+}
+.tab_box .tab_list_box .tab{
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 20px;
+    height:60px;
+    line-height: 60px;
+    color:#555;
+
+    border-bottom: 1px solid lightgray;
+    list-style: none;
+}
+.tab_box .tab_list_box .tab a{
+    color:black;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.tab_box .tab_list_box .tab span.go{
+    float: right;
+    background: url("./image/go.png") no-repeat center;
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+}
+.myInfo{
+    position: relative;
+    width: 100%;
+    height:150px;
+    background: url("./image/my.png") no-repeat center 100%;
+    background-size: cover;
+}
+.myInfo p{
+    height:40px;
+    position: absolute;
+    top: 50%;
+    width: 200px;
+    margin-top: -20px;
+    left:50%;
+    margin-left: -100px;
+    text-align: center;
+    font-size: 18px;
+}
+.myFooter{
+    background:#f3f4f5;
+    padding: 20px 15px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    font-size: 14px;
+
+    line-height: 18px;
+}
+.detail{
+    width: 100%;
+    height:100%
+}
+.detail_img_box{
+    width: 100%;
+    height: 300px;
+    border: 1px solid lightgray;
+}
+.detail img{
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+.detail_nav{
+    display: flex;
+    flex-direction: row;
+    height:40px;
+    font-size: 18px;
+    line-height: 40px;
+}
+.detail_nav li{
+    flex: 1 1 auto;
+    text-align: center;
 
 }

@@ -4,6 +4,8 @@
 import React,{Component} from 'react';
 import { Router, Route, Link, Redirect } from 'react-router';
 
+const src = require('../../../image/goback.png')
+
 class Header extends Component{
     constructor(props){
         super(props);
@@ -36,7 +38,7 @@ class Goback extends  Component{
         return (
             <div className='goback'>
                 <Link to={`/app/首页`}>
-                      <p style={{color:"red"}}>返回首页</p>
+                    <img src={src} alt="" style={{float:'left',margin:"8px"}}/>
                 </Link>
             </div>
         )
