@@ -352,6 +352,8 @@ ul,li,dl,ol{
     width: 100%;
     height: 300px;
     border: 1px solid lightgray;
+    border-right: none;
+    border-left: none;
 }
 .detail img{
     display: block;
@@ -370,4 +372,7 @@ ul,li,dl,ol{
     flex: 1 1 auto;
     text-align: center;
 
+}
+.action_detail{
+    border-bottom: 1px solid yellow;
 }

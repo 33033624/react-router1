@@ -21,6 +21,7 @@ export class Like extends Component{
 
 
 
+
     render(){
         const {likeText,likeImg}  = this.props;
         var {detailPath} = this.props;
