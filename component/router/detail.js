@@ -14,6 +14,7 @@ import React,{Component} from 'react';
         }
     }
     componentDidMount(){
+
         /*可以获取到对应路由的参数*/
         const pro = this.props.params.pro;
         var src = '';
@@ -43,8 +44,18 @@ import React,{Component} from 'react';
        })
     }
      detail_click(e){
-         console.log(this);
+         const tar = e.target;
+         const siblings = tar.parentNode.children;
+         const detail_banner = tar.parentNode.nextSibling.childNodes[0].childNodes;
+         for(var i = 0;i<siblings.length;i++){
+             siblings[i].className = '';
+             detail_banner[i].className = '';
+             if(siblings[i] == tar){
+                 detail_banner[i].className = 'action_detail'
+             }
 
+         }
+         tar.className = 'action_detail';
 
      }
 
@@ -55,18 +66,37 @@ import React,{Component} from 'react';
         return (
             <div className='detail'>
                 <ul className='detail_nav'>
-                    <li className='action_detail' onClick={this.detail_click.bind(this)}>商品</li>
-                    <li onClick={this.detail_click.bind(this)}>详情</li>
-                    <li onClick={this.detail_click.bind(this)}>评价</li>
+                    <li className='action_detail' onClick={this.detail_click}>商品</li>
+                    <li onClick={this.detail_click}>详情</li>
+                    <li onClick={this.detail_click}>评价</li>
                 </ul>
-                <div className='detail_img_box'>
-                    <img src={source} alt=""/>
+                <div>
+                    <ul className='detail_list'>
+                        <li className='action_detail'><div className='detail_img_box'>
+                            <img src={source} alt=""/>
+                        </div>
+                            <p style={{color:'#232326',fontSize:'14px',lineHeight:'20px',margin:'2px 5px'}}>
+                                【超市】意大利进口 Balocco 百乐可 脆皮酥 焦糖味 200g
+                            </p>
+                            <div></div>
+                            <p style={{color:'#81838e',fontSize:'13px',lineHeight:'17px',margin:'11px 10px  '}}>自营进口食品  美味专享 年终劲爆促销 Happy Christmas</p></li>
+                        <li>
+                            <div>
+                                <img src="../../image/detail.jpg" alt=""/>
+                            
+                            </div>
+
+                        </li>
+                        <li>
+                        <p>评价内容</p>
+                        </li>
+                    </ul>
+
+
+
+
                 </div>
-                <p style={{color:'#232326',fontSize:'14px',lineHeight:'20px',margin:'2px 5px'}}>
-                    【超市】意大利进口 Balocco 百乐可 脆皮酥 焦糖味 200g
-                </p>
-                <div></div>
-                <p style={{color:'#81838e',fontSize:'13px',lineHeight:'17px',margin:'11px 10px  '}}>自营进口食品  美味专享 年终劲爆促销 Happy Christmas</p>
+
             </div>
 
         )

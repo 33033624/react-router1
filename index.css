@@ -375,4 +375,14 @@ ul,li,dl,ol{
 }
 .action_detail{
     border-bottom: 1px solid yellow;
+    color:red;
+}
+
+
+.detail_list li{
+    display: none;
+    border-bottom: none;
+}
+li.action_detail{
+    display: block;
 }
