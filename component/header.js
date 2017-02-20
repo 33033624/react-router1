@@ -4,9 +4,9 @@
 import React,{Component} from 'react';
 import { Router, Route, Link, Redirect } from 'react-router';
 
-const src = require('../../../image/goback.png')
+const src = require('../image/goback.png')
 
-class Header extends Component{
+export class Header extends Component{
     constructor(props){
         super(props);
 
@@ -60,6 +60,3 @@ class Title extends  Component{
         )
     }
 }
-
-
-export default Header

@@ -3,7 +3,7 @@
  */
 import React,{Component} from 'react';
 import {Router,Route,IndexRoute,Link,IndexLink} from 'react-router';
-import {navTo} from '../../utils.js'
+import {navTo} from '../util/utils.js'
 class Registered extends Component {
 
     constructor(props)
@@ -17,7 +17,7 @@ class Registered extends Component {
         alert('注册成功，请登陆');
         this.props.history.replaceState(null, '/login');
 
-        
+
     }
     componentDidMount(){
        var body=document.getElementsByTagName('body')[0];

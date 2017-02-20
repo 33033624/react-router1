@@ -5,7 +5,7 @@ import React from 'react'
 import { render } from 'react-dom'
 import { Router, Route, IndexRoute, Link, IndexLink } from 'react-router'
 import { createHistory, useBasename } from 'history'
-import Footer from './component/router/public/footer.js'
+import {Footer} from './component/index';
 
 require('./index.css');
 
@@ -33,4 +33,3 @@ const App=React.createClass({
     }
 });
 export default App
-

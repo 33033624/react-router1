@@ -3,7 +3,7 @@
  */
 import React,{Component} from 'react';
 import {Router,Route,IndexRoute,Link,IndexLink} from 'react-router';
-import {navTo} from '../../utils.js';
+import {navTo} from '../util/utils.js';
 class FindPsw extends Component {
 
     constructor(props)
@@ -107,4 +107,3 @@ var styles = {
 
 
 }
-

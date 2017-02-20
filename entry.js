@@ -8,15 +8,15 @@ import { createHistory, useBasename } from 'history'
 
 
 import App from './app.js'
-import Baking from './component/router/baking.js'
-import My from './component/router/my.js'
-import Store from './component/router/mall.js'
-import Study from './component/router/study.js'
-import First from './component/router/first.js'
-import Login from './component/router/login.js'
-import Registered from './component/router/registered.js'
-import FindPsw from './component/router/findPsw.js'
-import Detail from './component/router/detail.js'
+import Baking from './view/baking.js'
+import My from './view/my.js'
+import Store from './view/mall.js'
+import Study from './view/study.js'
+import First from './view/first.js'
+import Login from './view/login.js'
+import Registered from './view/registered.js'
+import FindPsw from './view/findPsw.js'
+import Detail from './view/detail.js'
 
 
 
@@ -40,27 +40,9 @@ render((
 
             <Route path='/app/detail/:pro' component={Detail}/>
 
-
-
-
-
-
-        {/*
-    <IndexRoute component={MyNav} />
-    <Route path="userCenter" component={MyUserCenter} />
-    <Route path="memberClub" component={MemberClub} />
-    </Route>
-
-    <Route path="/circle" component={Circle}>
-    <IndexRoute component={CircleType} />
-    <Route path="tip/:tipName" component={CircleTip} />
-    <Route path="say" component={CircleSay} />
-    </Route>*/}
-
          </Route>
 
 
 
     </Router>
 ), document.getElementById('app'))
-

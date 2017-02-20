@@ -2,31 +2,32 @@
  * Created by super on 16/12/14.
  */
 import React,{Component} from 'react';
-import {navTo} from '../../utils.js';
-const src = require('../../image/jd.jpg');
-const src2 = require('../../image/jd2.jpg');
-import {Recommended} from './public/recommended.js'
-import {Like} from './public/like.js'
-import {SearchList} from './public/seachList.js'
-const src3 = require('../../image/recommended.jpg');
-const src4 = require('../../image/recommended.jpg');
-const src5 = require('../../image/jd3.jpg');
-const src6 = require('../../image/jd6.jpg');
+import {navTo} from '../util/utils.js';
+const src = require('../image/jd.jpg');
+const src2 = require('../image/jd2.jpg');
+import {SearchList,Like,Recommended} from '../component/index';
+const src3 = require('../image/recommended.jpg');
+const src4 = require('../image/recommended.jpg');
+const src5 = require('../image/jd3.jpg');
+const src6 = require('../image/jd6.jpg');
 
 
 
 class First extends Component{
     constructor(props){
-        super();
+        super(props);
         this.state={
-            sea:[]
+            sea:[],
+            bg: "transparent"
         }
+        console.log('constructor');
     }
     submit(){
         navTo.call(this,'/app/烘焙')
     }
 
     componentDidMount(){
+      console.log('componentDidMount');
         var mySwiper = new Swiper('.swiper-container', {
             autoplay: 3000,
             effect : 'fade',
@@ -34,17 +35,25 @@ class First extends Component{
             loop : true,
         })
 
+        window.onscroll = (event) => {
+          console.log(111);
+        			let realHeight = document.documentElement.scrollTop || document.body.scrollTop;
+        			let optatic = 0.8 * (realHeight/142);
+        			if(optatic <= 0.8 ) {
+        				this.setState({
+        					bg: `rgba(234, 44, 44, ${optatic})`,
+        				})
+        			}
+        		}
 
             var body=document.getElementsByTagName('body')[0];
             body.style.background = 'white';
-
-
-
-
-
-
-
-
+          }
+    shouldComponentUpdate(nextProps,nextState){
+      console.log('shouldComponentUpdate');
+      console.log('nextProps',nextProps);
+      console.log('nextState',nextState);
+      return true
     }
     search() {
         /*当点击搜索按钮的时候通过ajax或者fetch向服务器发送请求*/
@@ -63,13 +72,13 @@ class First extends Component{
         }
     }
     render(){
-        const {sea} = this.state;
-        console.log(sea.length)
+        const {sea,bg} = this.state;
+        console.log(bg)
 
         return (
             <div style={{marginBottom:'60px'}}>
 
-                <div className='seach_first'>
+                <div className='seach_first' style={{background:bg}}>
                     <input type="text" placeholder='请输入要搜索的内容' maxLength="10"/>
                     <span style={{width:"40px",height:"30px",position:'absolute',right:15,top:5,lineHeight:'30px',background:'lightcoral',textAlign:'center'}} onClick={this.search.bind(this)}>搜索</span>
                 </div>

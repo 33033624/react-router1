@@ -4,7 +4,7 @@
 
 import React,{Component} from 'react';
 import {Link} from 'react-router';
-import {navTo}  from '../../../utils.js'
+import {navTo}  from '../util/utils.js'
 
 
 

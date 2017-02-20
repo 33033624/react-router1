@@ -3,7 +3,7 @@
  */
 import React,{Component} from 'react';
 import {Link} from'react-router';
-class Tab extends Component{
+export class Tab extends Component{
     constructor(props){
         super()
     }
@@ -47,4 +47,3 @@ class Tab extends Component{
 
     }
 }
-export default Tab;

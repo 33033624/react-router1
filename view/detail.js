@@ -20,19 +20,19 @@ import React,{Component} from 'react';
         var src = '';
         switch (pro){
             case '0':{
-                src=require('../../image/details.jpg');
+                src=require('../image/details.jpg');
                 break;
             }
             case '100':{
-                src=require('../../image/detail2.jpg');
+                src=require('../image/detail2.jpg');
                 break;
             }
             case '200':{
-                src=require('../../image/details.jpg');
+                src=require('../image/details.jpg');
                 break;
             }
             case '300':{
-                src=require('../../image/detail2.jpg');
+                src=require('../image/detail2.jpg');
                 break;
             }
                 default :{
@@ -83,7 +83,7 @@ import React,{Component} from 'react';
                         <li>
                             <div>
                                 <img src="../../image/detail.jpg" alt=""/>
-                            
+
                             </div>
 
                         </li>

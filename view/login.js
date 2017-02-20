@@ -4,7 +4,7 @@
 import React,{Component} from 'react';
 import {Router,Route,IndexRoute,Link,IndexLink} from 'react-router';
 
-import src from '../../image/logo.jpg'
+import src from '../image/logo.jpg'
 
 class Login extends Component {
 

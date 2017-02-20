@@ -6,9 +6,8 @@
  */
 import React,{Component} from 'react';
 import {Router,Route,IndexRoute,Link,IndexLink} from 'react-router';
-import Header from './public/header.js';
-import Tab from './public/tab.js';
-import {navTo} from '../../utils.js'
+import {Header,Tab} from '../component/index.js';
+import {navTo} from '../util/utils.js'
 class My extends Component{
     constructor(props){
         super(props)

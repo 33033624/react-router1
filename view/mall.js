@@ -3,11 +3,10 @@
  */
 import React,{Component} from 'react';
 import {Router,Route,IndexRoute,Link,IndexLink} from 'react-router';
-import Header from './public/header.js';
-import {Like} from './public/like.js';
-const src = require('../../image/lingshi.jpg');
-const src2 = require('../../image/jd2.jpg');
-const src5 = require('../../image/jd4.jpg');
+import {Like,Header} from '../component/index';
+const src = require('../image/lingshi.jpg');
+const src2 = require('../image/jd2.jpg');
+const src5 = require('../image/jd4.jpg');
 class Store extends Component{
     constructor(props){
         super(props)

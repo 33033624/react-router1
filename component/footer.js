@@ -4,10 +4,7 @@
 import React,{Component} from 'react';
 import {render} from 'react-dom';
 import {Router,Route,IndexRoute,Link,IndexLink} from 'react-router';
-const style ={};
-
-
-class Footer extends Component{
+export class Footer extends Component{
    constructor(props){
        super(props)
    }
@@ -61,6 +58,3 @@ class Footer extends Component{
 
 
 }
-export default Footer
-
-
