@@ -1,7 +1,7 @@
 /**
  * Created by super on 16/12/14.
  */
-import React from 'react'
+import React,{Component} from 'react'
 import { render } from 'react-dom'
 import { Router, Route, IndexRoute, Link, IndexLink } from 'react-router'
 import { createHistory, useBasename } from 'history'
@@ -10,7 +10,7 @@ import {Footer} from './component/index';
 require('./index.css');
 
 const ACTIVE = { color: 'red' };
-const App=React.createClass({
+class  App extends Component{
     render(){
         return (
 
@@ -31,5 +31,5 @@ const App=React.createClass({
             </div>
         )
     }
-});
+}
 export default App
