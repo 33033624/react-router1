@@ -6,10 +6,8 @@ import { render } from 'react-dom'
 import { Router, Route, IndexRoute, Link, IndexLink } from 'react-router'
 import { createHistory, useBasename } from 'history'
 import {Footer} from './component/index';
-
-require('./index.css');
-
 const ACTIVE = { color: 'red' };
+require('./index.css');
 const App=React.createClass({
     render(){
         return (

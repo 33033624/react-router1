@@ -27,7 +27,8 @@ class First extends Component{
     }
 
     componentDidMount(){
-      console.log('componentDidMount');
+      var body = document.getElementsByTagName('body')[0];
+      body.style.height='auto'
         var mySwiper = new Swiper('.swiper-container', {
             autoplay: 3000,
             effect : 'fade',

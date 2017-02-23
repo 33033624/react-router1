@@ -18,6 +18,10 @@ class Login extends Component {
         this.props.history.replaceState(null, '/app/首页');
 
     }
+    componentDidMount(){
+      var body = document.getElementsByTagName('body')[0];
+      body.style.height = '100%';
+    }
 
 
     render(){
